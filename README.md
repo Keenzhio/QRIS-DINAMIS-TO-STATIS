@@ -44,8 +44,8 @@ qris-converter/
 
 1. Clone repo atau download source code:
 
-git clone https://github.com/username/qris-converter.git
-cd qris-converter
+git clone https://github.com/Keenzhio/QRIS-DINAMIS-TO-STATIS.git
+cd QRIS-DINAMIS-TO-STATIS
 
 
 2. Install dependencies:
