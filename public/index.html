@@ -1,12 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>QRIS Converter</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QRIS DINAMIS • Demo Modern UI</title>
+  <link rel="stylesheet" href="assets/css/modern.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#">QRIS<span>DINAMIS</span></a>
+      <nav class="nav-actions">
+        <button class="btn ghost" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        <a class="btn primary" href="#">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-blobs" aria-hidden="true">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1 class="title">Bantu Toko Anda — Modern, Cepat, dan Sederhana</h1>
+          <p class="lead">Kelola pembayaran QRIS dengan antarmuka yang minimalis dan animasi halus untuk pengalaman yang menyenangkan.</p>
+          <div class="hero-cta">
+            <a class="btn primary large" href="#">Mulai Sekarang</a>
+            <a class="btn ghost" href="#">Pelajari Lebih Lanjut</a>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <div class="card-preview">
+            <div class="balance">Rp<span>1.250.000</span></div>
+            <ul class="mini-stats">
+              <li>Transaksi Hari Ini <strong>120</strong></li>
+              <li>Penjualan Minggu <strong>Rp 7.5jt</strong></li>
+            </ul>
+            <div class="card-actions">
+              <button class="btn subtle">Detail</button>
+              <button class="btn primary">Tarik Dana</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="catalog container">
+      <h2 class="section-title">Fitur Unggulan</h2>
+      <div class="grid" id="featureGrid">
+        <article class="card" tabindex="0">
+          <h3>Dashboard Real-time</h3>
+          <p>Lihat transaksi dan laporan secara instan dengan visual yang mudah dibaca.</p>
+        </article>
+        <article class="card" tabindex="0">
+          <h3>Integrasi Mudah</h3>
+          <p>Gabungkan dengan POS Anda tanpa konfigurasi rumit.</p>
+        </article>
+        <article class="card" tabindex="0">
+          <h3>Keamanan & Backup</h3>
+          <p>Enkripsi, backup, dan kontrol akses untuk toko Anda.</p>
+        </article>
+        <article class="card" tabindex="0">
+          <h3>Laporan Otomatis</h3>
+          <p>Laporan harian dan ringkasan mendalam yang bisa diunduh.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <strong>QRIS DINAMIS</strong> — HELP YOUR STORE</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/modern.js"></script>
+</body>
 </html>
